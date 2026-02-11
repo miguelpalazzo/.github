@@ -1,5 +1,5 @@
-# Community Health Files
+# .github
 
-Community health files for personal repositories.
+_Community health files for [@miguelpalazzo](https://github.com/miguelpalazzo)'s repositories._
 
-For more information, please see the article on [creating a default community health file for your organization](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file).
+For more information, please see the article on [creating a default community health file for your organization](https://help.github.com/en/articles/creating-a-default-community-health-file-for-your-organization).
