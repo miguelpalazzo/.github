@@ -1,0 +1,73 @@
+config:
+  code-block-style:
+    style: "fenced"
+
+  code-fence-style:
+    style: "backtick"
+
+  emphasis-style:
+    style: "underscore"
+
+  fenced-code-language:
+    allowed_languages:
+      - json
+      - shell
+      - text
+      - typescript
+      - yaml
+    language_only: true
+
+  heading-line-length:
+    maximum: 60
+    minimum: 10
+
+  heading-style:
+    style: "atx"
+
+  hr-style:
+    style: "---"
+
+  line-length:
+    code_blocks: false
+    line_length: 100
+    strict: true
+    tables: false
+
+  link-image-style:
+    autolink: false
+    collapsed: false
+    inline: false
+    shortcut: false
+
+  no-blanks-blockquote: false
+
+  no-duplicate-heading:
+    siblings_only: true
+
+  no-trailing-punctuation:
+    punctuation: ".,;:!?\"'"
+
+  ol-prefix:
+    style: "ordered"
+
+  strong-style:
+    style: "asterisk"
+
+  table-column-style:
+    style: "aligned"
+
+  table-pipe-style:
+    style: "leading_and_trailing"
+
+  ul-style:
+    style: "dash"
+
+globs:
+  - "**/*.md"
+
+ignores:
+  - ".github/pull_request_template.md"
+  - ".next/**/*.md"
+  - "node_modules/**/*.md"
+
+fix: false
